@@ -1,9 +1,13 @@
 """GPHMC 2D example"""
 import numpy as np
 
-from gphmc import GPHMCSampler
-from gaussian_process_regression.covariance import SquaredExponential
-from gaussian_process_regression.optimizer import SECovLikelihoodOptimizer
+from gphmc.gphmc import GPHMCSampler
+from gaussian_process_regression.gaussian_process.covariance import (
+    SquaredExponential
+)
+from gaussian_process_regression.gaussian_process.optimizer import (
+    SECovLikelihoodOptimizer
+)
 
 
 def potential_energy(x):

@@ -1,8 +1,10 @@
 """GPHMC"""
 import numpy as np
 
-from gaussian_process_regression.covariance import Covariance
-from gaussian_process_regression.optimizer import LikelihoodOptimizer
+from gaussian_process_regression.gaussian_process.covariance import Covariance
+from gaussian_process_regression.gaussian_process.optimizer import (
+    LikelihoodOptimizer
+)
 
 
 class NoExplorationError(Exception):
