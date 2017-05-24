@@ -1,6 +1,12 @@
 ## Gaussian Process Hamiltonian Monte Carlo
 
 Implementation of Gaussian Process Hamiltonian Monte Carlo described in [2].
+Some notable differences with the method described in the paper are:
+- we do not use the gradient information at the evaluation point. As such, 
+we do not need to know how to compute the derivative of the target density
+- we use a black box optimization algorithm for the likelihood optimization
+of the covariance parameters. As such, we do not need to define the gradient
+of the likelihood with respect to the covariance parameters.
 
 The code is mainly based on:
 - `GPHMCSampler`: the class used to sample from a probability distribution defined up to a factor
