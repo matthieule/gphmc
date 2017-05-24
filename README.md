@@ -29,13 +29,13 @@ the following density (defined up to a normalization factor):
 Below is the result of the density interpolation after the exploration of the Gaussian
 Process Hamiltonian Monte Carlo using 50 initialization points, and 50 explorations points:
 
-<img src="https://github.com/matthieule/gaussian_process_regression/blob/master/figures/estimation.png" alt="alt text" width=500px>
+<img src="https://github.com/matthieule/gphmc/blob/master/figures/estimation.png" alt="alt text" width=500px>
 
 The scatter points are the data points used to interpolate the target density on the 2D space, overlaid on the said interpolation.
 
 Below is the results from the sampling stage of the Gaussian Process Hamiltonian Monte Carlo:
 
-<img src="https://github.com/matthieule/gaussian_process_regression/blob/master/figures/sample.png" alt="alt text" width=500px>
+<img src="https://github.com/matthieule/gphmc/blob/master/figures/sample.png" alt="alt text" width=500px>
 
 The pictures can be re-generated using:
 
