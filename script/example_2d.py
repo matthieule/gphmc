@@ -3,14 +3,18 @@ import matplotlib.pyplot as plt
 import numpy as np
 from tqdm import tqdm
 
-from gaussian_process_regression.gaussian_process.covariance import (
+from gphmc.gaussian_process_regression.gaussian_process.covariance import (
     SquaredExponential
 )
-from gaussian_process_regression.gaussian_process.gp import GaussianProcess
-from gaussian_process_regression.gaussian_process.optimizer import (
+from gphmc.gaussian_process_regression.gaussian_process.gp import (
+    GaussianProcess
+)
+from gphmc.gaussian_process_regression.gaussian_process.optimizer import (
     SECovLikelihoodOptimizer
 )
-from gaussian_process_regression.gaussian_process.util import get_logger
+from gphmc.gaussian_process_regression.gaussian_process.util import (
+    get_logger
+)
 from gphmc.gphmc import GPHMCSampler
 
 FUZZ = 1e-300

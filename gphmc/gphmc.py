@@ -3,8 +3,8 @@ import numpy as np
 from copy import deepcopy
 from tqdm import tqdm
 
-from gaussian_process_regression.gaussian_process.covariance import Covariance
-from gaussian_process_regression.gaussian_process.optimizer import (
+from .gaussian_process_regression.gaussian_process.covariance import Covariance
+from .gaussian_process_regression.gaussian_process.optimizer import (
     LikelihoodOptimizer
 )
 
