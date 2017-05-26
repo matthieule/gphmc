@@ -52,3 +52,4 @@ python script/example_2d.py
 ## References:
 - [1] [Rasmussen, C.E., 2006. Gaussian processes for machine learning.](http://www.gaussianprocess.org/gpml/chapters/RW.pdf)
 - [2] [Rasmussen, C.E., Bernardo, J.M., Bayarri, M.J., Berger, J.O., Dawid, A.P., Heckerman, D., Smith, A.F.M. and West, M., 2003. Gaussian processes to speed up hybrid Monte Carlo for expensive Bayesian integrals. In Bayesian Statistics 7 (pp. 651-659).](http://www.kyb.mpg.de/fileadmin/user_upload/files/publications/pdfs/pdf2080.pdf)
+- [3] https://arogozhnikov.github.io/2016/12/19/markov_chain_monte_carlo.html
