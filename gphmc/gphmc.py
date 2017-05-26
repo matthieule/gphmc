@@ -140,7 +140,7 @@ class GPHMCSampler:
 
         # Run the Hamiltonian dynamics
         for idx in range(length):
-            obs += momentum*epsilon
+            obs += momentum*epsilon/momentum_std**2
             # For the last step, skip the momentum full update
             if idx < length-1:
                 pot_energy_grad, std = (
